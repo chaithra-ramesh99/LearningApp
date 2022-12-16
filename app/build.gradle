@@ -50,5 +50,11 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
     //barcode
     implementation 'com.google.mlkit:barcode-scanning:17.0.3'
+    // WorkManager dependency
+    def work_version = "2.7.1"
+
+
+    // Kotlin + coroutines
+    implementation "androidx.work:work-runtime-ktx:$work_version"
 
 }
